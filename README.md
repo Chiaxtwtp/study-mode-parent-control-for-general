@@ -4,15 +4,16 @@ Windows 家長控制 / 自主學習模式工具。
 
 > **目前狀態：Beta 測試版**
 >
-> 這個 repository 僅提供公開下載版本，不包含原始碼。
+> 這個 repository 僅提供公開下載與 Beta 問題回報，**不包含原始碼**。
 
-## 最新版本
+## 下載
 
-**v16_fix4_beta5**
+最新測試版本：**v16_fix4_beta5**
 
-請到右側 **Releases** 下載最新的 Windows EXE。
+請使用本 repository 右側的 **Releases** 下載 Windows 版本。  
+若目前尚未看到 Release，代表最新安裝包正在準備發布。
 
-## 功能
+## 主要功能
 
 - 指定 Windows 應用程式限制
 - YouTube / Roblox / Discord / TikTok / Twitch 等網站限制
@@ -20,7 +21,7 @@ Windows 家長控制 / 自主學習模式工具。
 - 家長密碼保護
 - 休息提醒
 - Hybrid Time：本機時鐘 + 背景可信時間驗證
-- 設定自動保存與備份
+- 設定自動保存、備份與重新讀取驗證
 - Crash 後 hosts 規則清理
 - Windows 登入自動啟動
 - 單一執行個體保護
@@ -33,13 +34,13 @@ Windows 家長控制 / 自主學習模式工具。
 
 ## 第一次執行
 
-1. 下載 Release 中的 EXE。
-2. 執行程式。
-3. Windows 可能顯示 SmartScreen「不明的發行者」警告，因目前 Beta 尚未使用正式 Code Signing。
+1. 從 **Releases** 下載最新版本。
+2. 解壓縮後執行 `AI_Study_Mode.exe`。
+3. Windows 可能顯示 SmartScreen「不明的發行者」警告；目前 Beta 尚未使用正式 Code Signing。
 4. 建立家長密碼。
 5. 進入「家長進階設定」設定程式、網站與排程。
 
-## 資料位置
+## 本機資料位置
 
 設定：
 
@@ -51,18 +52,18 @@ Log：
 
 ## Beta 問題回報
 
-若遇到問題，請保留 Log 並在此 repository 建立 Issue，描述：
+若遇到問題，可在本 repository 建立 Issue，並提供：
 
 - Windows 版本
 - AI Study Mode 版本
 - 問題發生步驟
-- 是否能重現
+- 是否能穩定重現
 - 必要時附上 Log（請先確認其中沒有你不想公開的資訊）
 
 ## Privacy
 
-目前版本採 Local-first 設計。家長設定與使用資料儲存在本機。
+目前版本採 Local-first 設計。家長設定與程式資料儲存在本機。
 
 ## Source Code
 
-此公開 repository **不包含程式原始碼**，僅用於公開下載與 Beta 問題回報。
+此公開 repository **不提供程式原始碼**；開發用 source repository 保持 Private。
